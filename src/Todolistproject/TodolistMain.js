@@ -10,12 +10,13 @@ const Newtodolistform = ({ addtext }) => {
     }
     return (
         <form onSubmit={handelsubmit}>
-            <label>write your text</label>
-            <div>
+
+            <div className='form'>
                 <input className='input1' type='text' required value={title}
                     onChange={(e) => { seTitle(e.target.value) }}
                 ></input>
                 <input className='input2' type='submit'></input>
+                <label>write your text</label>
             </div>
 
         </form>
