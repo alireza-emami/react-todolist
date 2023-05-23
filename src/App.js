@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Newsongform from './Todolistproject/TodolistMain';
 import Songlist from './Todolistproject/todolist';
+import Trash from './Trash.svg';
 
 function App() {
   return (

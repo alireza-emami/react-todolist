@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
 .App {
   text-align: center;
 }
@@ -53,7 +55,7 @@ li {
 
 .input1 {
   color: #fff;
-  border: 2px solid #88e0f9 ;
+  border: 2px solid #88e0f9;
   border-radius: 5px;
   width: 400px;
   height: 40px;
@@ -70,21 +72,30 @@ li {
   margin-left: -70px;
 }
 
-.form{
+.form {
   width: 510px;
   height: 50px;
   position: relative;
 }
-label{
+
+label {
   position: absolute;
   top: 15px;
   left: 60px;
   font-size: 18px;
   text-transform: capitalize;
-  transition: top .3s;
+  transition: top .1s;
   pointer-events: none;
 }
-.input1:focus ~ label{
+
+.input1:focus~label {
   top: -9px;
   background-color: #282c34;
+}
+.b{
+display: flex;
+align-items: center;
+/* justify-content: space-between;
+justify-content: space-around; */
+justify-content: space-evenly;
 }
